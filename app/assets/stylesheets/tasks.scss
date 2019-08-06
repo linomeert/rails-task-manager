@@ -1,0 +1,39 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul li {
+  width:25%;
+  border:1px solid rgba(0,0,0,0.10);
+  padding:20px;
+  -webkit-box-shadow: 1px 3px 21px -10px rgba(0,0,0,0.20);
+  -moz-box-shadow: 1px 3px 21px -10px rgba(0,0,0,0.20);
+  box-shadow: 1px 3px 21px -10px rgba(0,0,0,0.20);
+  border-radius: 4px;
+}
+
+
+a {
+  color:black;
+
+}
+
+
+a:hover {
+  text-decoration: none;
+  color:green;
+}
+
+
+i.far {
+
+    i.far.fa-check-circle {
+        font-size: 20px;
+        color: green;
+    }
+}
+
